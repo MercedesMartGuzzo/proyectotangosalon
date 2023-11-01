@@ -1,0 +1,157 @@
+/* cena-show-main-mobile */
+.top-cena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    color: $color-rojo;
+}
+
+.solo,
+.cena-show,
+.clases {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem;
+    background-color: $color-gris;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.clases {
+    margin-bottom: 1rem;
+}
+
+.boton-reservas {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: 0.5rem;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boton-reservas3 {
+    background-color: black;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    margin: 0.5rem;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* cena-show-tablet */
+@media (min-width: 768px) {
+    .top-cena {
+        display: grid;
+        grid-column: span 2;
+
+    }
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+
+    .clases {
+        display: grid;
+        grid-column: span 2;
+        justify-self: center;
+        width: 80vh;
+    }
+
+    .cena-show {
+        display: flex;
+        justify-self: center;
+        align-self: start;
+        width: 80vh;
+    }
+
+    .solo {
+        justify-self: center;
+        width: 80vh;
+    }
+
+    .boton-reservas3 {
+        background-color: black;
+        display: grid;
+        justify-self: center;
+        align-self: center;
+        margin: 0.5rem;
+        width: 100px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+
+}
+
+/* cena-show-desktop */
+@media (min-width: 1200px) {
+    .top-cena {
+        display: grid;
+        grid-column: span 2;
+
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        justify-self: center;
+
+        margin-top: 1rem;
+    }
+
+    .clases {
+        display: grid;
+        grid-column: span 2;
+        margin-bottom: 1rem;
+        width: 40vw;
+        height: 40vh;
+
+    }
+
+    .solo,
+    .cena-show {
+        width: 40vw;
+        height: 40vh;
+
+        justify-content: start;
+        align-items: center;
+
+        justify-content: space-between;
+    }
+
+
+
+
+.boton-reservas {
+    background-color: black;
+    display: flex;
+    justify-self: end;
+    margin-bottom: 1rem;
+
+}
+
+}
+/*# sourceMappingURL=style.css.map */
