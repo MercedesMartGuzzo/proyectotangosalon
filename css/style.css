@@ -47,8 +47,7 @@ header {
   font-size: 8px;
   padding-right: 10px;
 }
-
-.desplegable {
+.selector .desplegable {
   font-size: 8px;
 }
 
@@ -63,8 +62,7 @@ header {
   display: grid;
   grid-column: span 2;
 }
-
-.nav-list {
+.barra-pages .nav-list {
   display: grid;
   grid-column: span 2;
   justify-content: center;
@@ -95,12 +93,17 @@ header {
   .top-header {
     display: flex;
   }
-  .selector {
+  .wrapper-elements {
+    display: grid;
+    align-content: space-between;
+    grid-row: span 2;
+  }
+  .wrapper-elements .selector {
     font-size: 12px;
     padding-bottom: 5px;
     padding-right: 5px;
   }
-  .desplegable {
+  .wrapper-elements .selector .desplegable {
     font-size: 12px;
   }
   .logo {
@@ -113,17 +116,12 @@ header {
     margin-top: 5px;
     margin-left: 5px;
   }
-  .wrapper-elements {
-    display: grid;
-    align-content: space-between;
-    grid-row: span 2;
-  }
   .barra-pages {
     display: grid;
     grid-column: span 2;
     align-items: end;
   }
-  .nav-list {
+  .barra-pages .nav-list {
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -160,9 +158,18 @@ footer {
   transform: scale(1.1);
 }
 
-h3 {
+.boton-reservas {
+  background-color: black;
   display: flex;
-  font-size: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin: 5px;
+  padding: 8px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .redes-footer {
@@ -498,12 +505,3 @@ h4 {
 
 
 /*# sourceMappingURL=style.css.map */
-
-
-
- 
- 
-
-
-   
-
