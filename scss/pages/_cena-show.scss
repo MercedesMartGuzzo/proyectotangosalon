@@ -47,6 +47,10 @@ h4 {
     width: 100px;
     border-radius: 5px;
     text-align: center;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 
 .boton-reservas3 {
@@ -54,10 +58,16 @@ h4 {
     display: grid;
     justify-self: center;
     align-self: center;
-    margin: 0.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
     width: 100px;
     border-radius: 5px;
     text-align: center;
+    font-size: 12.8px;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 
 /* cena-show-tablet */

@@ -4,7 +4,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:$color-gris;
+    background-color: $color-gris;
     width: 100%;
 }
 
@@ -13,11 +13,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
-.boton-tango:hover {
-    transform: scale(1.1);
-}
 .boton-reservas {
     background-color: black;
     display: flex;
@@ -30,8 +31,9 @@ footer {
     border-radius: 5px;
     text-align: center;
     font-size: 0.8rem;
-    
+
 }
+
 .redes-footer {
     font-display: flex;
     justify-content: center;
@@ -58,7 +60,7 @@ footer {
     footer {
         display: grid;
         grid-column: span 2;
-        background-color:$color-gris;
+        background-color: $color-gris;
     }
 
     .cajón-footer {
