@@ -228,7 +228,7 @@ main {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .bienvenida {
@@ -388,7 +388,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 h3 {
@@ -521,5 +521,53 @@ h4 {
   }
 }
 
+/* staff-main-mobile */
+.top-staff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.titulo-artistas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+  font-size: 1.4rem;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  color: rgba(179, 17, 17, 0.788);
+}
+
+.musicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.3rem;
+}
+.musicos-fotos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  background-color: rgba(121, 113, 113, 0.281);
+}
 
 /*# sourceMappingURL=style.css.map */

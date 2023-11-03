@@ -1,2 +1,53 @@
 /* staff-main-mobile */
 
+.top-staff {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+   
+
+}
+
+.titulo-artistas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    font-size: 1.4rem;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    color:$color-rojo;
+}
+
+.musicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.3rem;
+
+    &-fotos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 5px;
+        background-color: rgba(121, 113, 113, 0.281);
+    }
+}
