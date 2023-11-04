@@ -55,3 +55,45 @@ h4 {
 }
 
 /* staff-main-tablet */
+@media(min-width: 768px) {
+    .top-staff {
+        display: grid;
+        grid-column: span 2;
+        justify-items: center;
+    }
+
+    .musicos-wrapper {
+        display: grid;
+        justify-items: center;
+        align-self: start;
+        background-color: $color-gris;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 0.5rem;
+
+    }
+
+
+
+.bailarines-wrapper {
+    display: grid;
+    justify-items: center;
+    align-self: start;
+    background-color: $color-verde;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+
+}
+}
+
+/* main-desktop */
+@media(min-width:1200px) {
+    .bailarines-fotos {
+        margin-top: 1.5rem;
+    }
+}
