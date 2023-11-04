@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1rem;
-   
+
 
 }
 
@@ -29,10 +29,11 @@ h4 {
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
-    color:$color-rojo;
+    color: $color-rojo;
 }
 
-.musicos {
+.musicos,
+.bailarines {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,14 +41,17 @@ h4 {
     text-align: center;
     gap: 0.3rem;
 
+
     &-fotos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 0.5rem;
         padding: 1rem;
-        margin: 0.5rem;
+        margin: 1rem;
         border-radius: 5px;
-        background-color: rgba(121, 113, 113, 0.281);
+        background-color: $color-gris;
     }
 }
+
+/* staff-main-tablet */

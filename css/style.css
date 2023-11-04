@@ -551,7 +551,8 @@ h4 {
   color: rgba(179, 17, 17, 0.788);
 }
 
-.musicos {
+.musicos,
+.bailarines {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -559,15 +560,18 @@ h4 {
   text-align: center;
   gap: 0.3rem;
 }
-.musicos-fotos {
+.musicos-fotos,
+.bailarines-fotos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 1rem;
   border-radius: 5px;
   background-color: rgba(121, 113, 113, 0.281);
 }
+
+/* staff-main-tablet */
 
 /*# sourceMappingURL=style.css.map */
