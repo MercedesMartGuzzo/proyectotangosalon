@@ -9,54 +9,57 @@ header {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 
+
 }
-    .top-header {
-        display: flex;
-    }
+
+.top-header {
+    display: flex;
+}
 
 
-    .selector {
-        display: flex;
-        justify-content: end;
-        padding-top: 5px;
+.selector {
+    display: flex;
+    justify-content: end;
+    padding-top: 5px;
+    font-size: 8px;
+    padding-right: 10px;
+
+
+    .desplegable {
         font-size: 8px;
-        padding-right: 10px;
-
-
-        .desplegable {
-            font-size: 8px;
-        }
     }
+}
 
-    .logo {
-        display: flex;
-        width: 60px;
-        height: 60px;
-        padding: 5px;
-    }
+.logo {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
 
-    .barra-pages {
+.barra-pages {
+    display: grid;
+    grid-column: span 2;
+
+
+    .nav-list {
         display: grid;
         grid-column: span 2;
-
-
-        .nav-list {
-            display: grid;
-            grid-column: span 2;
-            justify-content: center;
-            list-style: none;
-            font-size: 10px;
-            text-align: center;
-            background-color: $color-rojo;
-            border-radius: 4px;
-        }
+        justify-content: center;
+        list-style: none;
+        font-size: 10px;
+        text-align: center;
+        background-color: $color-rojo;
+        border-radius: 4px;
     }
+}
 
-    .redes {
-        display: none;
-        justify-content: end;
-        gap: 0, 5rem;
-    }
+.redes {
+    display: none;
+    justify-content: end;
+    gap: 0, 5rem;
+}
+
 
 
 
@@ -74,64 +77,68 @@ header {
 
     }
 
-        .top-header {
-            display: flex;
-        }
+    .top-header {
+        display: flex;
+    }
 
 
-        .wrapper-elements {
-            display: grid;
-            align-content: space-between;
-            grid-row: span 2;
+    .wrapper-elements {
+        display: grid;
+        align-content: space-between;
+        grid-row: span 2;
 
 
-            .selector {
+        .selector {
+            font-size: 12px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+
+
+            .desplegable {
                 font-size: 12px;
-                padding-bottom: 5px;
-                padding-right: 5px;
-
-
-                .desplegable {
-                    font-size: 12px;
-                }
-
             }
-        }
 
-        .logo {
+        }
+    }
+
+    .logo {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 8px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+
+    .barra-pages {
+        display: grid;
+        grid-column: span 2;
+        align-items: end;
+
+
+        .nav-list {
             display: flex;
-            width: 100px;
-            height: 100px;
+            flex-direction: row;
+            height: 40px;
             align-items: center;
-            padding-top: 10px;
-            padding-left: 8px;
-            margin-top: 5px;
-            margin-left: 5px;
+            gap: 1rem;
+            list-style: none;
+            font-size: 18px;
+            background-color: $color-rojo;
         }
+    }
 
+    .redes {
+        display: flex;
+        gap: 2px;
+        padding-right: 10px;
 
-        .barra-pages {
-            display: grid;
-            grid-column: span 2;
-            align-items: end;
+        .ig:hover {
+            transform: scale(1.1);
 
-
-            .nav-list {
-                display: flex;
-                flex-direction: row;
-                height: 40px;
-                align-items: center;
-                gap: 1rem;
-                list-style: none;
-                font-size: 18px;
-                background-color: $color-rojo;
-            }
         }
-
-        .redes {
-            display: flex;
-            gap: 2px;
-            padding-right: 10px;
-        }
-    
+    }
 }

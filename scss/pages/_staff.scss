@@ -54,6 +54,7 @@ h4 {
     }
 }
 
+
 /* staff-main-tablet */
 @media(min-width: 768px) {
     .top-staff {
@@ -76,24 +77,23 @@ h4 {
     }
 
 
+    .bailarines-wrapper {
+        display: grid;
+        justify-items: center;
+        align-self: start;
+        background-color: $color-verde;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 0.5rem;
 
-.bailarines-wrapper {
-    display: grid;
-    justify-items: center;
-    align-self: start;
-    background-color: $color-verde;
-    border-radius: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding-top: 0.5rem;
-
-}
+    }
 }
 
 /* main-desktop */
 @media(min-width:1200px) {
     .bailarines-fotos {
-        margin-top: 1.5rem;
+        margin-top: 1.1rem;
     }
 }

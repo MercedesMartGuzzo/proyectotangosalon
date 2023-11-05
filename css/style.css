@@ -136,6 +136,9 @@ header {
     gap: 2px;
     padding-right: 10px;
   }
+  .redes .ig:hover {
+    transform: scale(1.1);
+  }
 }
 /* footer-mobile */
 footer {
@@ -186,6 +189,9 @@ footer {
   gap: 0.5rem;
   margin-bottom: 1rem;
 }
+.nav-social .ig:hover {
+  transform: scale(1.1);
+}
 
 .cajón-footer {
   display: flex;
@@ -217,6 +223,9 @@ footer {
   .nav-social {
     display: flex;
     margin-bottom: 1rem;
+  }
+  .nav-social .ig:hover {
+    transform: scale(1.1);
   }
 }
 /* main-mobile- index */
@@ -605,7 +614,7 @@ h4 {
 /* main-desktop */
 @media (min-width: 1200px) {
   .bailarines-fotos {
-    margin-top: 1.5rem;
+    margin-top: 1.1rem;
   }
 }
 
