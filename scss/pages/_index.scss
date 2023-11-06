@@ -16,11 +16,13 @@ h1 {
     color: $color-rojo;
     display: flex;
     padding-top: 10px;
+    text-shadow: 3px 3px 2px $color-gris;
 }
 
 h2 {
     color: $color-rojo;
     font-size: 14px;
+    text-shadow: 3px 3px 2px $color-gris;
 }
 
 .quienes-somos {
