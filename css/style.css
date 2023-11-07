@@ -859,9 +859,17 @@ h4 {
   color: white;
 }
 
+.titulo-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
 .ubicacion {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
 }
