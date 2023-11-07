@@ -7,7 +7,7 @@ header {
     border-bottom: rgba(90, 81, 81, 0.61) solid 1px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-    background: linear-gradient(rgba(0, 0, 0, 0.74),$color-gris);
+    background: linear-gradient(rgba(0, 0, 0, 0.74), $color-gris);
 }
 
 .top-header {
@@ -50,9 +50,10 @@ header {
         background-color: $color-rojo;
         border-radius: 4px;
 
-    a:hover{
-        font-size: 1rem;
-    }
+        a:hover {
+
+            font-size: 14px;
+        }
     }
 }
 
@@ -76,8 +77,9 @@ header {
         border-bottom: rgba(90, 81, 81, 0.61) solid 1px;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
-        background: linear-gradient(rgba(0, 0, 0, 0.74),$color-gris);
+        background: linear-gradient(rgba(0, 0, 0, 0.74), $color-gris);
     }
+
     .top-header {
         display: flex;
     }

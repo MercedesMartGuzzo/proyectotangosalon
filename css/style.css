@@ -73,7 +73,7 @@ header {
   border-radius: 4px;
 }
 .barra-pages .nav-list a:hover {
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .redes {
@@ -651,6 +651,7 @@ h4 {
     margin-top: 1.1rem;
   }
 }
+/* contacto-main-mobile */
 .top-contacto {
   display: flex;
   justify-content: center;
@@ -815,6 +816,115 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+/* reservas-main-mobile */
+.elegir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.74);
+  border-radius: 5px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+.elegir .solo-reservas {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.elegir .cena-reservas {
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+}
+.elegir .clase-reservas {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.elegir .dia {
+  display: flex;
+  justify-content: end;
+  gap: 0.5rem;
+  padding-bottom: 0.4rem;
+  padding-right: 0.3rem;
+}
+.elegir .boton-elegir:hover {
+  background-color: rgba(179, 17, 17, 0.788);
+  color: white;
+}
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.wrapp-mapa2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+/* reservas-main tablet */
+@media (min-width: 768px) {
+  .formulario-reservas {
+    display: grid;
+    justify-self: start;
+  }
+  .formulario-reservas h2 {
+    margin-top: 2rem;
+  }
+  .elegir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+  }
+  .elegir .dia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 0.4rem;
+  }
+  .elegir .boton-elegir:hover {
+    background-color: rgba(179, 17, 17, 0.788);
+    color: white;
+  }
+  .donde-estamos {
+    display: grid;
+    justify-items: center;
+    margin-top: 0.1rem;
+  }
+  .donde-estamos h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+  .donde-estamos .ubicacion {
+    margin: 0;
+    padding-bottom: 0.3rem;
+  }
+  .wrapp-mapa2 {
+    margin-top: 0.5rem;
+    padding: 0;
   }
 }
 
