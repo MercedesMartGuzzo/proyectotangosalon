@@ -6,19 +6,21 @@
     margin-bottom: 1rem;
 } 
 
-h2 {
+h1 {
     display: flex;
     justify-content: center;
     margin: 0.5rem;
     font-size: 1.4rem;
+    color:$color-rojo;
+    text-shadow: 3px 3px 2px $color-gris;
 
 }
 
-h3{
+h2{
     font-size: 1.2rem;
     text-shadow: 3px 3px 2px $color-gris;
 }
-h4 {
+h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
@@ -85,8 +87,8 @@ h4 {
     
     }
 
-    h2,
-    h3 {
+    h1,
+    h2 {
         font-size: 1.5rem;
 
     }
@@ -136,7 +138,7 @@ h4 {
 
     }
 
-    h4 {
+    h3{
         font-size: 1.5rem;
         justify-self: center;
 

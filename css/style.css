@@ -419,19 +419,21 @@ h3 {
   margin-bottom: 1rem;
 }
 
-h2 {
+h1 {
   display: flex;
   justify-content: center;
   margin: 0.5rem;
   font-size: 1.4rem;
+  color: rgba(179, 17, 17, 0.788);
+  text-shadow: 3px 3px 2px rgba(121, 113, 113, 0.281);
 }
 
-h3 {
+h2 {
   font-size: 1.2rem;
   text-shadow: 3px 3px 2px rgba(121, 113, 113, 0.281);
 }
 
-h4 {
+h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 0.5rem;
@@ -494,8 +496,8 @@ h4 {
     display: grid;
     grid-column: span 2;
   }
-  h2,
-  h3 {
+  h1,
+  h2 {
     font-size: 1.5rem;
   }
   .clases {
@@ -534,7 +536,7 @@ h4 {
     display: grid;
     grid-column: span 2;
   }
-  h4 {
+  h3 {
     font-size: 1.5rem;
     justify-self: center;
     margin-top: 1rem;
