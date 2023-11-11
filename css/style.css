@@ -313,9 +313,10 @@ h3 {
   gap: 1rem;
   margin: 1rem;
   padding: 10px;
+  transition: 1s 1s all ease;
 }
 .contacto:hover {
-  transform: rotate(360dg);
+  transform: rotate(360deg);
   background-color: rgba(191, 228, 119, 0.363);
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.74);
   border-radius: 5px;
@@ -401,6 +402,10 @@ h3 {
     margin-top: 1rem;
     display: grid;
     justify-self: center;
+    transition: 1s all ease;
+  }
+  .wrapp-mapa:hover {
+    transform: rotate(360deg);
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.74);
     border-radius: 5px;
   }
@@ -453,6 +458,12 @@ h3 {
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
+  transition: 1s 1s all ease;
+}
+.solo:hover,
+.cena-show:hover,
+.clases:hover {
+  transform: translatey(-5px);
 }
 
 .clases {
@@ -472,6 +483,7 @@ h3 {
 }
 .boton-reservas:hover {
   transform: scale(1.1);
+  background-color: rgba(179, 17, 17, 0.788);
 }
 
 .boton-reservas3 {
@@ -488,6 +500,7 @@ h3 {
 }
 .boton-reservas3:hover {
   transform: scale(1.1);
+  background-color: rgba(179, 17, 17, 0.788);
 }
 
 /* cena-show-tablet */
@@ -506,6 +519,10 @@ h3 {
     justify-self: center;
     width: 80vh;
     box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
+    transition: 1s 1s all ease;
+  }
+  .clases:hover {
+    transform: translateX(20px);
   }
   .cena-show {
     display: flex;

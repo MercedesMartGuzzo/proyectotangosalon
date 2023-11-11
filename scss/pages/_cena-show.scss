@@ -4,22 +4,23 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1rem;
-} 
+}
 
 h1 {
     display: flex;
     justify-content: center;
     margin: 0.5rem;
     font-size: 1.4rem;
-    color:$color-rojo;
+    color: $color-rojo;
     text-shadow: 3px 3px 2px $color-gris;
 
 }
 
-h2{
+h2 {
     font-size: 1.2rem;
     text-shadow: 3px 3px 2px $color-gris;
 }
+
 h3 {
     display: flex;
     justify-content: center;
@@ -40,6 +41,12 @@ h3 {
     border-radius: 1rem;
     padding: 0.5rem;
     box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
+    transition: 1s 1s all ease;
+
+    &:hover{
+        transform: translatey(-5px);
+    }
+
 }
 
 .clases {
@@ -57,8 +64,10 @@ h3 {
     border-radius: 5px;
     text-align: center;
 
-    &:hover{
-        transform: scale(1.1);
+
+    &:hover {
+        transform: scale(1.1) ;
+        background-color: $color-rojo;
     }
 }
 
@@ -74,8 +83,9 @@ h3 {
     text-align: center;
     font-size: 12.8px;
 
-    &:hover{
+    &:hover {
         transform: scale(1.1);
+        background-color: $color-rojo;
     }
 }
 
@@ -84,7 +94,7 @@ h3 {
     .top-cena {
         display: grid;
         grid-column: span 2;
-    
+
     }
 
     h1,
@@ -100,6 +110,11 @@ h3 {
         justify-self: center;
         width: 80vh;
         box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
+        transition: 1s 1s all ease;
+
+        &:hover{
+            transform: translateX(20px);
+        }
     }
 
     .cena-show {
@@ -108,6 +123,7 @@ h3 {
         align-self: start;
         width: 80vh;
         box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
+
     }
 
     .solo {
@@ -138,7 +154,7 @@ h3 {
 
     }
 
-    h3{
+    h3 {
         font-size: 1.5rem;
         justify-self: center;
 
@@ -171,13 +187,14 @@ h3 {
 
 
 
-.boton-reservas {
-    background-color: black;
-    display: flex;
-    justify-self: end;
-    margin-bottom: 1rem;
+    .boton-reservas {
+        background-color: black;
+        display: flex;
+        justify-self: end;
+        margin-bottom: 1rem;
+
+    }
 
 }
 
-}
 /*# sourceMappingURL=style.css.map */
