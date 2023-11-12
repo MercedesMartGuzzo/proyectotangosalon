@@ -5,7 +5,6 @@ main {
     justify-content: center;
     align-items: center;
     background-color: $color-gris;
-
 }
 
 h1 {
@@ -109,6 +108,7 @@ h3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: $color-gris ;
+        
     }
 
     h1 {

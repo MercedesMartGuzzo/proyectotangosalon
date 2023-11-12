@@ -20,7 +20,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
+    margin-right: 1rem;
+    margin-left: 1rem;
 
 
     .comentario {
@@ -47,15 +48,17 @@
         display: flex;
         justify-content: center;
         margin-top: 0.3rem;
+        margin-right: 2rem;
 
         .boton {
             padding: 0.3rem;
             justify-content: center;
             border-radius: 4px;
+            transition: 1s all ease;
 
             &:hover {
                 background-color: $color-rojo;
-                transform: scale(1.1);
+                transform: scale(1.1) rotate(360deg);
             }
         }
     }
@@ -63,6 +66,7 @@
     .click {
         display: flex;
         gap: 0.3rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -77,9 +81,18 @@
     flex-direction: column;
     gap: 0.7rem;
     margin-bottom: 0.3rem;
+    transition: 2s all ease;
+
+    &:hover {
+        background-color: gray;
+        border-radius: 5px;
+        transform: translateY(-5px);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.74);
+        padding: 3px;
+    }
 
 
-    h4 {
+    h3 {
         margin: 0.3rem;
     }
 }
@@ -89,6 +102,7 @@
 
     .nav-social {
         margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -102,7 +116,7 @@
 
 
     .titulo-contacto {
-        margin: 0.4rem;
+        margin: 0.3rem;
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -151,8 +165,9 @@
 
         .de-acuerdo {
             display: flex;
-            justify-content: center;
+            align-self: center;
             margin-top: 0.3rem;
+            margin-right: 4.3rem;
 
 
             .boton {
@@ -171,39 +186,102 @@
             display: flex;
             gap: 0.3rem;
             margin-bottom: 0.5rem;
+            align-self: start;
+            padding-left: 0.3rem;
+
+            &-parrafo {
+                display: flex;
+                align-items: start;
+            }
         }
     }
 
-}
 
-
-.vias1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-shadow: 3px 3px 2px $color-gris;
-}
-
-.redes-contacto {
-    margin-top: 0.8rem;
-    text-shadow: 3px 3px 2px $color-gris;
-
-    .nav-social {
-        margin-top: 1rem;
-    }
-}
-
-@media(min-width:1200px) {
-
-
-    .varios {
-        margin-top: 0.3rem;
+    .vias {
         display: flex;
+        align-items: center;
         flex-direction: column;
-        justify-content: space-between;
+        gap: 0.7rem;
+        margin-bottom: 0.3rem;
+        transition: 2s all ease;
+
+        &:hover {
+            margin: 2rem;
+            border-radius: 1rem;
+        }
     }
 
-    
+        .vias1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-shadow: 3px 3px 2px $color-gris;
+
+        }
+
+        .redes-contacto {
+            margin-top: 0.8rem;
+            text-shadow: 3px 3px 2px $color-gris;
+
+            .nav-social {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    @media(min-width:1200px) {
 
 
-}
+        .titulo-contacto {
+            margin: 1rem;
+
+        }
+
+        .varios {
+            margin-top: 0.3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .datos {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            margin-left: 1rem;
+
+            .de-acuerdo {
+                display: flex;
+                align-self: center;
+                margin-top: 0.3rem;
+                margin-right: 6.6rem;
+
+
+                .boton {
+                    padding: 0.3rem;
+                    justify-content: center;
+                    border-radius: 4px;
+
+                    &:hover {
+                        background-color: $color-rojo;
+                        transform: scale(1.1) translate(20px);
+                    }
+                }
+            }
+
+            .click {
+                display: flex;
+                gap: 0.5rem;
+                margin-bottom: 0.5rem;
+                align-self: start;
+
+                &-parrafo {
+                    display: flex;
+                    align-items: start;
+                }
+            }
+        }
+
+    }

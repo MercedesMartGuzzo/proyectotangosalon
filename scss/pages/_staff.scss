@@ -18,14 +18,14 @@
     font-size: 1.3rem;
 }
 
-h2 {
+h1 {
     display: flex;
     justify-content: center;
     margin: 0.5rem;
     font-size: 1.4rem;
 }
 
-h4 {
+h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
@@ -42,6 +42,7 @@ h4 {
     gap: 0.3rem;
 
 
+
     &-fotos {
         display: flex;
         flex-direction: column;
@@ -51,8 +52,17 @@ h4 {
         margin: 1rem;
         border-radius: 5px;
         background-color: $color-gris;
+        transition: 2s all ease;
+        
+        &:hover{
+            transform: scale(1.02) ;
+            background-color: $color-verde;
+        }
     }
 }
+
+
+
 
 
 /* staff-main-tablet */
@@ -82,7 +92,7 @@ h4 {
         justify-items: center;
         align-self: start;
         background-color: $color-gris;
-        
+
         border-radius: 0.5rem;
         margin-left: 1rem;
         margin-right: 1rem;
