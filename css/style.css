@@ -33,11 +33,7 @@ header {
   border-bottom: rgba(90, 81, 81, 0.61) solid 1px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(121, 113, 113, 0.281));
-}
-
-.top-header {
-  display: flex;
+  background: linear-gradient(rgba(121, 113, 113, 0.281), rgba(0, 0, 0, 0.822));
 }
 
 .selector {
@@ -56,6 +52,10 @@ header {
   width: 60px;
   height: 60px;
   padding: 5px;
+}
+
+.container {
+  padding-left: 0.3rem;
 }
 
 .barra-pages {
@@ -82,13 +82,12 @@ header {
   gap: 0, 5rem;
 }
 
-/* versíón tablet--header */
+/* versíón tablet--header-desktop */
 @media (min-width: 768px) {
   header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
-    background-color: rgba(121, 113, 113, 0.281);
     border-bottom: rgba(90, 81, 81, 0.61) solid 1px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
