@@ -10,7 +10,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: $color-rojo;
     text-shadow: 3px 3px 2px $color-gris;
 
@@ -43,7 +43,7 @@ h3 {
     box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
     transition: 1s 1s all ease;
 
-    &:hover{
+    &:hover {
         transform: translatey(-5px);
     }
 
@@ -66,7 +66,7 @@ h3 {
 
 
     &:hover {
-        transform: scale(1.1) ;
+        transform: scale(1.1);
         background-color: $color-rojo;
     }
 }
@@ -94,15 +94,14 @@ h3 {
     .top-cena {
         display: grid;
         grid-column: span 2;
-        
 
+        h1,
+        h2 {
+            font-size: 1.5rem;
+        }
     }
 
-    h1,
-    h2 {
-        font-size: 1.5rem;
 
-    }
 
 
     .clases {
@@ -113,7 +112,7 @@ h3 {
         box-shadow: 5px 5px 2px 3px rgba(0, 0, 0, 0.74);
         transition: 1s 1s all ease;
 
-        &:hover{
+        &:hover {
             transform: translateX(20px);
         }
     }

@@ -5,18 +5,20 @@ main {
     justify-content: center;
     align-items: center;
     background-color: $color-gris;
+
 }
 
-h1 {
-    font-size: 1.4rem;
-}
+
 
 .bienvenida {
     color: $color-rojo;
     display: flex;
     padding-top: 10px;
     text-shadow: 3px 3px 2px $color-gris;
-    
+
+    h1 {
+        font-size: 1.3rem;
+    }
 }
 
 h2 {
@@ -33,7 +35,7 @@ h2 {
     width: 70vw;
     padding-top: 5px;
     margin: 1rem;
-    font-size:0.9rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 
@@ -108,23 +110,21 @@ h3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: $color-gris ;
-        
+
+
     }
 
     h1 {
         font-size: 1.5rem;
     }
 
-    h2 {
-        font-size: 1rem;
-    }
 
     .bienvenida {
         display: grid;
         grid-column: span 2;
         justify-items: center;
         margin-bottom: 0.5rem;
-        
+
     }
 
     .wrapper-somos {
@@ -136,6 +136,7 @@ h3 {
         margin-left: 1rem;
         margin-right: 1rem;
         background-color: rgba(121, 113, 113, 0.281);
+
 
     }
 
@@ -156,6 +157,10 @@ h3 {
         padding-top: 5px;
         font-size: 1rem;
         text-align: center;
+
+        h2 {
+            font-size: 1.4rem;
+        }
     }
 
     .nuestro-salón {
@@ -163,6 +168,9 @@ h3 {
         padding-top: 5px;
         font-size: 1rem;
         text-align: center;
+        h2 {
+            font-size: 1.4rem;
+        }
     }
 
     .parrafo {
@@ -190,13 +198,13 @@ h3 {
         display: grid;
         justify-self: center;
         transition: 1s all ease;
-        
 
-        &:hover{
-        transform: rotateY(360deg);
-        background-color: $color-verde;
-        box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.74);
-        border-radius: 5px;
+
+        &:hover {
+            transform: rotateY(360deg);
+            background-color: $color-verde;
+            box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.74);
+            border-radius: 5px;
         }
     }
 }

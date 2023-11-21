@@ -12,6 +12,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-size: 1.4rem;
+
 }
 
 .datos {
@@ -93,6 +95,7 @@
 
 
     h3 {
+        font-size: 1.3rem;
         margin: 0.3rem;
     }
 }
@@ -211,77 +214,77 @@
         }
     }
 
-        .vias1 {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            text-shadow: 3px 3px 2px $color-gris;
+    .vias1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-shadow: 3px 3px 2px $color-gris;
 
-        }
-
-        .redes-contacto {
-            margin-top: 0.8rem;
-            text-shadow: 3px 3px 2px $color-gris;
-
-            .nav-social {
-                margin-top: 1rem;
-            }
-        }
     }
 
-    @media(min-width:1200px) {
+    .redes-contacto {
+        margin-top: 0.8rem;
+        text-shadow: 3px 3px 2px $color-gris;
 
-
-        .titulo-contacto {
-            margin: 1rem;
-
+        .nav-social {
+            margin-top: 1rem;
         }
+    }
+}
 
-        .varios {
+@media(min-width:1200px) {
+
+
+    .titulo-contacto {
+        margin: 1rem;
+
+    }
+
+    .varios {
+        margin-top: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 1rem;
+
+        .de-acuerdo {
+            display: flex;
+            align-self: center;
             margin-top: 0.3rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .datos {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: center;
-            gap: 10px;
-            margin-left: 1rem;
-
-            .de-acuerdo {
-                display: flex;
-                align-self: center;
-                margin-top: 0.3rem;
-                margin-right: 6.6rem;
+            margin-right: 6.6rem;
 
 
-                .boton {
-                    padding: 0.3rem;
-                    justify-content: center;
-                    border-radius: 4px;
+            .boton {
+                padding: 0.3rem;
+                justify-content: center;
+                border-radius: 4px;
 
-                    &:hover {
-                        background-color: $color-rojo;
-                        transform: scale(1.1) translate(20px);
-                    }
-                }
-            }
-
-            .click {
-                display: flex;
-                gap: 0.5rem;
-                margin-bottom: 0.5rem;
-                align-self: start;
-
-                &-parrafo {
-                    display: flex;
-                    align-items: start;
+                &:hover {
+                    background-color: $color-rojo;
+                    transform: scale(1.1) translate(20px);
                 }
             }
         }
 
+        .click {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            align-self: start;
+
+            &-parrafo {
+                display: flex;
+                align-items: start;
+            }
+        }
     }
+
+}
