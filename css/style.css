@@ -24,6 +24,15 @@ img {
   max-width: 100%;
 }
 
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgba(121, 113, 113, 0.281);
+}
+
 /* header */
 /* mobile */
 header {
@@ -33,7 +42,14 @@ header {
   border-bottom: rgba(90, 81, 81, 0.61) solid 1px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  background: linear-gradient(rgba(121, 113, 113, 0.281), rgba(0, 0, 0, 0.822));
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(121, 113, 113, 0.281));
+}
+
+.logo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
 }
 
 .selector {
@@ -45,17 +61,6 @@ header {
 }
 .selector .desplegable {
   font-size: 8px;
-}
-
-.logo {
-  display: flex;
-  width: 60px;
-  height: 60px;
-  padding: 5px;
-}
-
-.container {
-  padding-left: 0.3rem;
 }
 
 .barra-pages {
@@ -237,7 +242,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(121, 113, 113, 0.281);
 }
 
 .bienvenida {
@@ -334,7 +338,6 @@ h3 {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgba(121, 113, 113, 0.281);
   }
   h1 {
     font-size: 1.5rem;
@@ -1008,6 +1011,7 @@ h3 {
   }
   .formulario-reservas h1 {
     margin-top: 2rem;
+    font-size: 1.5rem;
   }
   .elegir {
     display: flex;
